@@ -1,10 +1,13 @@
 body{
-	background-color:#F5D2EC
+	background-color:#4A9447;
 }
 
 h1{
+	display: flex;
+	color:whitesmoke;
 	font-family:Georgia;
-	text-shadow: 2px 2px 5px #edce79;
+	font size: 200%;
+	text-shadow: 2px 2px 5px #green;
 }
 
 h3{
@@ -22,13 +25,16 @@ h2{
 
 img{
 	border-radius: 50px;
-	width:250px;
-	height:300px;
+	width: 150px;px;
+	height: 200px;px;
 }
 
-.link.flex-container-1{
-	display:flex;
+
+
+.link{
 	flex-grow:25;
+	flex:3;
+	text-align:center;	
 }
 
 .flex-container-1{
@@ -48,6 +54,7 @@ img{
 
 .container-2{
 	display:flex;
+	flex:3;
 	flex-direction:row;
 }
 
@@ -68,7 +75,7 @@ img{
 
 
 
-#myFirstLink{
-	color:#8725a8;
+.banner{
+	background:#236420;
 	
 }
