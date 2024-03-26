@@ -1,0 +1,54 @@
+
+
+h1{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: smaller;
+}
+
+img{
+    border-radius: 50px;
+    width: 200px;
+    height: 250px;
+}
+a, li, h4{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container-1{
+	background-color: lightpink;
+}
+
+.container-2{
+	background-color: antiquewhite;
+}
+
+.custom-button{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.accordion-item{
+	--bs-accordion-btn-color: rgba(255, 255, 255, 0.767);
+	--bs-accordion-btn-bg: lightpink;
+	--bs-accordion-active-color: maroon;
+	--bs-accordion-active-bg: lightpink;
+}
+
+.navbar-custom{
+	background-color: lightpink;
+	font-size: 200%;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+.bold{
+    font-weight:bold;
+    text-decoration-line: underline;
+}
+
+.sub-bold{
+    font-weight:bold;
+}
